@@ -1,0 +1,32 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( to right, rgb(231, 220, 58), rgb(216, 100, 100));
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 200px  200px 200px;
+    grid-gap: 2rem;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+section {
+    align-self: center;
+    align-content: center;
+}
