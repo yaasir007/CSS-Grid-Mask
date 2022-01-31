@@ -6,11 +6,18 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient( to right, rgb(231, 220, 58), rgb(216, 100, 100));
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: 200px  200px 200px;
+    grid-template-columns: minmax(200px, 1fr 1fr);
     grid-gap: 2rem;
     justify-content: space-around;
 }
