@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    padding: 0;
-    background: linear-gradient( to right, rgb(231, 220, 58), rgb(216, 100, 100));
+    padding: 10rem;
+    background: linear-gradient( to right, rgb(91, 153, 235), rgb(235, 179, 179));
     overflow: hidden;
 }
 
